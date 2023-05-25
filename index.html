@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Challenge ONE - Decodificador de texto</title>
+</head>
+<body>
+    <header>
+        <div class="container__header">
+            <div class="cabecalho">
+                <img class="logo" src="/img/logo.png" alt="Logo da Alura">
+            </div>
+            
+        </div>
+        
+    </header>
+
+    <main>
+        <article class="container">
+            <section class="esquerda" id="esquerda">
+                <textarea class="inputtextarea" id="textoInput" placeholder="Digite seu texto" outofocus></textarea>
+        
+                <di class="btn-botoes">
+                    <span class="info"><img src="/img/Exclamação.png" alt="Exclamação">Apenas letras minússculas e sem
+                        acento</span>
+        
+                    <div class="botoes">
+                        <button id="btn-criptografar" class="btn-criptografar">Criptografar</button>
+                        <button class="btn-desencriptografar"  id="btn-desencriptografar">Desencriptografar</button>
+                    </div>
+        
+                </di>
+        
+            </section>
+        
+            <section class="direita" id="direita">
+                <img class="menino" src="/img/menino.png" id="menino" alt="menino">
+                <textarea id="textoFinal" class="textoFinal" placeholder="Nenhuma mensagem encontrada"></textarea>
+                <p id="textoInfo" class="info">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                <button class="btn-copiar bn-ocultar" id="btn-copiar">Copiar</button>
+            </section>
+        
+        </article>
+    </main>
+    <footer class="rodape">
+        <p class="criador">Criado por
+            
+                Danilo Rodrigues de Souza
+            </a>
+        </p>
+        <div>
+            <a  href="https://github.com/DanRodris" target="_blank">
+                <ion-icon class="logo-github" name="logo-github"></ion-icon>
+            </a>
+        
+            <a  href="https://www.linkedin.com/in/danrodris7/" target="_blank">
+                <ion-icon  class="logo-linkedin" name="logo-linkedin"></ion-icon>
+            </a>
+        </div>
+        </footer>
+    </footer>
+    <script src="/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
